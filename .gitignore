@@ -1,3 +1,5 @@
+.worktree
 .worktrees
 docs/reviews
-dev-workflow*
+docs/prd.md
+.dev-workflow*
