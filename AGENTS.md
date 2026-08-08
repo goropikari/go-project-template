@@ -3,6 +3,7 @@
 ## Testing
 
 テスト方針の要点。
+詳細なテストガイドラインは [TESTING.md](TESTING.md) を参照すること。
 
 - `testify` を使う
 - AAA パターンで書く
