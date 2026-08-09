@@ -1,5 +1,5 @@
 {
-  "name": "gomut",
+  "name": "go-project",
   "build": {
     "dockerfile": "Dockerfile"
   },
