@@ -3,3 +3,7 @@
 docs/reviews
 docs/prd.md
 .dev-workflow*
+.implementation-orchestrator/
+mutations.jsonl
+report.html
+report.sarif
