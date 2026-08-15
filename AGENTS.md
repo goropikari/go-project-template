@@ -10,6 +10,7 @@
 - `t.Run` を常に使う
 - テーブル駆動テストは原則使わない
 - テスト関数名は `Test{対象関数名}` を基本にする
+- テストファイルの `package` 名には `_test` suffix を付ける（例: `package foo_test`）
 
 ## Development
 

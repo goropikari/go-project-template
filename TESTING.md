@@ -16,7 +16,11 @@
 
 トップレベルのテスト関数は `TestXXX` 形式とし、`XXX` にはテスト対象の関数またはメソッド名を指定します。
 
+テストファイルの `package` 名には `_test` suffix を付け、外部パッケージとしてテストします。たとえば、実装パッケージが `foo` の場合は `package foo_test` とします。パッケージ内部の実装詳細を直接検証する必要がある場合を除き、この形式を使います。
+
 ```go
+package foo_test
+
 func TestClassify(t *testing.T) { /* ... */ }
 func TestCreate(t *testing.T) { /* method Create */ }
 ```
